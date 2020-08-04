@@ -1,0 +1,160 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {288, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "CA0E7F94-5A7F-4FE4-8BBE-E3A8249D899B",
+          "font_size" : 15,
+          "corner_radius" : 8,
+          "background_color" : "RGBA(0.441176,0.441176,0.441176,1.000000)",
+          "frame" : "{{106, 146}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Daily Scrobbles",
+          "action" : "do_daily_scrobbles",
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "daily_scrobbles",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 46}, {288, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "CA0E7F94-5A7F-4FE4-8BBE-E3A8249D899B",
+          "font_size" : 15,
+          "corner_radius" : 8,
+          "background_color" : "RGBA(0.439216,0.439216,0.439216,1.000000)",
+          "frame" : "{{106, 146}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Sort Playlist",
+          "action" : "do_sort_playlist",
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "sort_playlist",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 86}, {288, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "DC4D6264-AFB7-497E-B410-6F5A09F0A3BE",
+          "font_size" : 18,
+          "corner_radius" : 6,
+          "frame" : "{{75, 146}, {150, 32}}",
+          "border_color" : "RGBA(0.656863,0.656863,0.656863,1.000000)",
+          "border_width" : 3,
+          "alignment" : "center",
+          "text" : "",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "output_label",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 126}, {288, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "CA0E7F94-5A7F-4FE4-8BBE-E3A8249D899B",
+          "flex" : "W",
+          "corner_radius" : 8,
+          "background_color" : "RGBA(0.439216,0.439216,0.439216,1.000000)",
+          "frame" : "{{106, 146}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "View User",
+          "action" : "do_view_user",
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "view_user",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 166}, {288, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "CA0E7F94-5A7F-4FE4-8BBE-E3A8249D899B",
+          "font_size" : 15,
+          "corner_radius" : 8,
+          "background_color" : "RGBA(0.439216,0.439216,0.439216,1.000000)",
+          "frame" : "{{106, 146}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "View Playlist",
+          "action" : "do_view_playlist",
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "view_playlist",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 206}, {288, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "CA0E7F94-5A7F-4FE4-8BBE-E3A8249D899B",
+          "flex" : "W",
+          "corner_radius" : 8,
+          "background_color" : "RGBA(0.439216,0.439216,0.439216,1.000000)",
+          "frame" : "{{106, 146}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "View Tag",
+          "action" : "do_view_tag",
+          "alpha" : 1,
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "view_tag",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {300, 324}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "Music Tools",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
