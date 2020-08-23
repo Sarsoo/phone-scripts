@@ -64,6 +64,7 @@
           "border_width" : 3,
           "alignment" : "center",
           "text" : "",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "font_name" : "<System>",
           "class" : "Label",
           "name" : "output_label",
@@ -142,7 +143,32 @@
           "name" : "view_tag",
           "font_size" : 15
         },
-        "selected" : true
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 246}, {288, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "CA0E7F94-5A7F-4FE4-8BBE-E3A8249D899B",
+          "font_size" : 15,
+          "corner_radius" : 8,
+          "background_color" : "RGBA(0.439216,0.439216,0.439216,1.000000)",
+          "frame" : "{{106, 146}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Run Playlist",
+          "action" : "do_run_playlist",
+          "alpha" : 1,
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "run_playlist",
+          "flex" : "W"
+        },
+        "selected" : false
       }
     ],
     "frame" : "{{0, 0}, {300, 324}}",
@@ -150,9 +176,9 @@
     "attributes" : {
       "name" : "Music Tools",
       "enabled" : true,
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "background_color" : "RGBA(0.274510,0.274510,0.274510,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "flex" : ""
     },
     "selected" : false

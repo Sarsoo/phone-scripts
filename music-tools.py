@@ -70,6 +70,21 @@ def do_view_tag(sender):
 			webbrowser.open('jayson:///view?clipboard=true')
 		else:
 			sender.superview['output_label'].text = f'Failed {res.status_code} {res.body}'
+			
+@ui.in_background
+def do_run_playlist(sender):
+	name = dialogs.input_alert(title="Playlist Name")
+	
+	if name and len(name) > 0:
+		res = rsession.get("https://music.sarsoo.xyz/api/playlist/run", 
+		params={"name": name}, auth=auth)
+		
+		if 200 <= res.status_code < 300:
+			output = 'Success'
+		else:
+			output = f'Failed {res.status_code} {res.body}'
+		
+		sender.superview['output_label'].text = output
 
 if __name__ == '__main__':
 	v = ui.load_view()
